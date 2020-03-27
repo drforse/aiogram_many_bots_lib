@@ -30,4 +30,4 @@ status_text = runner.format_status()
 [ ] метод для вытягивания логов с хероку
 
 ##### Gratitudes:
- [Senderman](https://github.com/Senderman), creator of the original library for [pyTelegramBotApi](https://github.com/eternnoir/pyTelegramBotAPI)
+ [Senderman](https://github.com/Senderman), creator of the original [Manybots](https://github.com/Senderman/manybotslib) library for [pyTelegramBotApi](https://github.com/eternnoir/pyTelegramBotAPI)
