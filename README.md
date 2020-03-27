@@ -3,9 +3,9 @@ Library for running bots concurrently on [aiogram](https://github.com/aiogram/ai
 based on [Manybotslib](https://github.com/Senderman/manybotslib)
 
 ### Installation:
-    `pip istall e git://github.com/drforse/aiogram_many_bots_lib#egg=aiomanybots`
+`pip istall e git://github.com/drforse/aiogram_many_bots_lib#egg=aiomanybots`
 ### Uninstallation:
-    `pip uninstall aiomanybots`
+`bashpip uninstall aiomanybots`
 
 ### Examples
 Look for examples in /examples
