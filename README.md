@@ -1,6 +1,6 @@
 # aiomanybots
-Library for running bots concurrently on aiogram, 
-based on https://github.com/Senderman/manybotslib
+Library for running bots concurrently on [aiogram](https://github.com/aiogram/aiogram), 
+based on [Manybotslib](https://github.com/Senderman/manybotslib)
 
 ### Installation:
     `pip istall e git://github.com/drforse/aiogram_many_bots_lib#egg=aiomanybots`
@@ -28,3 +28,6 @@ status_text = runner.format_status()
 
 ###### TODO:
 [ ] метод для вытягивания логов с хероку
+
+##### Gratitudes:
+ [Senderman](https://github.com/Senderman), creator of the original library for [pyTelegramBotApi](https://github.com/eternnoir/pyTelegramBotAPI)
