@@ -18,7 +18,7 @@ Eсли главного бота не задать, уведомления ра
 `runner.set_main_bot(bot=main_bot, dispatcher=main_dispatcher, status_command= 'status')`
 
 ### Статус работы ботов
-В любой момент можно получить как словарь {string: boolean} о работе ботов, где ключ - имя бота, значение - true, если работает, false, если отключен, обративщись к полю bots_status:
+В любой момент можно получить как словарь {string: boolean} о работе ботов, где ключ - имя бота, значение - True, если работает, False, если отключен, обративщись к полю bots_status:
 
 `status = runner.get_status()`
 
