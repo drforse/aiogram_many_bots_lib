@@ -15,16 +15,16 @@ Look for examples in /examples
 
 Eсли главного бота не задать, уведомления работать не будут!
 
-runner.set_main_bot(admin_bot, 'status')
+`runner.set_main_bot(bot=main_bot, dispatcher=main_dispatcher, status_command= 'status')`
 
 ### Статус работы ботов
 В любой момент можно получить как словарь {string: boolean} о работе ботов, где ключ - имя бота, значение - true, если работает, false, если отключен, обративщись к полю bots_status:
 
-status = runner.get_status()
+`status = runner.get_status()`
 
 Кроме того, можно получить красиво отформатированную информацию о статусе всех ботов:
 
-status_text = runner.format_status()
+`status_text = runner.format_status()`
 
 ###### TODO:
 [ ] метод для вытягивания логов с хероку
